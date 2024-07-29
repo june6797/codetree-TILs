@@ -24,7 +24,7 @@ int main() {
 		}
 		else
 		{
-			cout << a / 2;
+			cout << a;
 		}
 	}
 }
