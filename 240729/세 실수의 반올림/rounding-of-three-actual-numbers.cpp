@@ -11,5 +11,6 @@ int main() {
 	cout.tie(0);
 	double a, b, c;
 	cin >> a >> b >> c;
-	cout << fixed << setprecision(3) << a + b + c;
+	cout << fixed << setprecision(3) << a << "\n";
+    cout << b << "\n" << c;
 }
