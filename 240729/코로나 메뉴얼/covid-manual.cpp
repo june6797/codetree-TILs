@@ -15,7 +15,7 @@ int main() {
 	for (int i = 0; i < 3; i++)
 	{
 		cin >> a >> d;
-		if (a == 'Y' || d >= 37)
+		if (a == 'Y' && d >= 37)
 		{
 			cnt++;
 		}
