@@ -11,7 +11,7 @@ int main() {
 	cout.tie(0);
 	int a, b, c, d, e;
 	cin >> a >> b >> c >> d >> e;
-	if (a >= b)
+	if (a > b)
 	{
 		cout << 1;
 	}
@@ -20,7 +20,7 @@ int main() {
 		cout << 0;
 	}
 	cout << "\n";
-	if (a >= c)
+	if (a > c)
 	{
 		cout << 1;
 	}
@@ -29,7 +29,7 @@ int main() {
 		cout << 0;
 	}
 	cout << "\n";
-	if (a >= d)
+	if (a > d)
 	{
 		cout << 1;
 	}
@@ -38,7 +38,7 @@ int main() {
 		cout << 0;
 	}
 	cout << "\n";
-	if (a >=e)
+	if (a > e)
 	{
 		cout << 1;
 	}
