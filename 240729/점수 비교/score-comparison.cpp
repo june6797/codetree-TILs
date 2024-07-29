@@ -11,7 +11,7 @@ int main() {
 	cout.tie(0);
 	int a, b, c, d;
 	cin >> a >> b >> c >> d;
-	if (a > b && c > d)
+	if (a > c && b > d)
 	{
 		cout << 1;
 	}
