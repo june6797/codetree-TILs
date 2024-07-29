@@ -11,7 +11,7 @@ int main() {
 	cout.tie(0);
 	int a, b, c, d;
 	cin >> a;
-	if (a < 10 && a > 20)
+	if (a < 10 || a > 20)
 	{
 		cout << "yes";
 	}
