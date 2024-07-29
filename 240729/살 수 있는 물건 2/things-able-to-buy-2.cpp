@@ -10,7 +10,7 @@ int main() {
 	cin.tie(0);
 	cout.tie(0);
 	int a;
-	cin >> a
+	cin >> a;
 	if (a >= 3000)
 	{
 		cout << "book";
