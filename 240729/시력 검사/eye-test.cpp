@@ -15,6 +15,10 @@ int main() {
 	{
 		cout << "High";
 	}
+	else if(a >= 0.5 && b >= 0.5)
+	{
+		cout << "Middle";
+	}
 	else
 	{
 		cout << "Low";
