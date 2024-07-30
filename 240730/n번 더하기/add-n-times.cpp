@@ -13,8 +13,8 @@ int main() {
 	cin >> a >> b;
 	for (int i = 0; i < b; i++)
 	{
-		cout << a << "\n";
 		a += b;
+		cout << a << "\n";
 	}
 
 }
