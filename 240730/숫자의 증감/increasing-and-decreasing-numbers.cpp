@@ -22,7 +22,7 @@ int main() {
 	}
 	else
 	{
-		for (int i = n; i >= n; i--)
+		for (int i = n; i >= 1; i--)
 		{
 			cout << i << " ";
 		}
