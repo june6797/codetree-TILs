@@ -10,6 +10,7 @@ int main() {
 	cin.tie(0);
 	cout.tie(0);
 	int a, b;
+	cin >> a >> b;
 	for (int i = max(a, b); i >= min(a, b); i--)
 	{
 		cout << i << " ";
