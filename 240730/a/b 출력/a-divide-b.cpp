@@ -14,7 +14,7 @@ int main() {
 	int temp = a / b;
 	cout << temp << ".";
 
-	int c = a;
+	int c = a % b;
 
 	int i = 0;
 
