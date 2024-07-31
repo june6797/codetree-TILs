@@ -17,7 +17,7 @@ int main() {
 	{
 		int num;
 		cin >> num;
-		if (i >= 0 && i <= 200)
+		if (num >= 0 && num <= 200)
 		{
 			sum += num;
 			cnt++;
