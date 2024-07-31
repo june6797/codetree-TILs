@@ -10,15 +10,20 @@ int main() {
 	cin.tie(0);
 	cout.tie(0);
 	int n;
-	int ans = 0;
+	int ans1 = 0, ans2 = 0;
 	for (int i = 0; i < 10; i++)
 	{
 		int num;
 		cin >> num;
-		if (num % 3 == 0 || num % 5 == 0)
+		if (num % 3 == 0)
 		{
-			ans++;
+			ans1++;
 		}
+		if (num % 5 == 0)
+		{
+			ans2++;
+		}
+
 	}
-	cout << ans;
+	cout << ans1 << " " << ans2;
 }
