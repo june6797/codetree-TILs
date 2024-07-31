@@ -13,7 +13,7 @@ int main() {
 	cin.tie(0);
 	cout.tie(0);
 	cin >> n;
-	ans = 1;
+	ans = 0;
 	for (int i = 1; i <= n; i++)
 	{
 		if (i % 2 == 0 || i % 3 == 0 || i % 5 == 0)
