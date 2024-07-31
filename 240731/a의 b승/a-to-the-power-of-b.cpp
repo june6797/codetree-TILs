@@ -13,8 +13,8 @@ int main() {
 	cin.tie(0);
 	cout.tie(0);
 	cin >> a >> b;
-	sum = a;
-	for (int i = 1; i < b; i++)
+	sum = 1;
+	for (int i = 0; i < b; i++)
 	{
 		sum *= a;
 	}
