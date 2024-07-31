@@ -20,11 +20,11 @@ int main() {
 		{
 			continue;
 		}
-		if ((i % 8) % 2 == 0)
+		if ((i / 8) % 2 == 0)
 		{
 			continue;
 		}
-		if ((i % 7) <= 4)
+		if ((i % 7) < 4)
 		{
 			continue;
 		}
