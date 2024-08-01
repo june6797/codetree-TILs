@@ -16,6 +16,7 @@ int main() {
 	while (sum < n)
 	{
 		ans++;
+		sum+=ans;
 	}
 	cout << ans;
 }
