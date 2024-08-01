@@ -17,8 +17,8 @@ int main() {
 	sum = 1;
 	while (sum < n)
 	{
-		sum *= ans;
 		ans++;
+		sum *= ans;
 	}
-	cout <<sum * ans;
+	cout << ans;
 }
