@@ -20,5 +20,5 @@ int main() {
 		sum *= ans;
 		ans++;
 	}
-	cout <<sum;
+	cout <<sum * ans;
 }
