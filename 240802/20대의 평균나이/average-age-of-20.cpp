@@ -22,5 +22,5 @@ int main() {
 		cnt++;
 		sum += n;
 	}
-	cout << fixed << setprecision(2) << sum / cnt;
+	cout << fixed << setprecision(2) << (double)sum / cnt;
 }
