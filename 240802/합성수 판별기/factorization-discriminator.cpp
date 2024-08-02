@@ -18,7 +18,7 @@ int main() {
 		if (n % i == 0)
 		{
 			cout << "C";
-			return;
+			return 0;
 		}
 	}
 	cout << "N";
