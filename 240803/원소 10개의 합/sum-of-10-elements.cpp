@@ -17,5 +17,5 @@ int main() {
 		cin >> n;
 		sum += n;
 	}
-	cout << n;
+	cout << sum;
 }
