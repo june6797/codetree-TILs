@@ -27,9 +27,9 @@ int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 	cout.tie(0);
-	int a, b;
-	cin >> a >> b;
-	for (int i = a; i <= b; i++)
+	int n
+	cin >> n;
+	for (int i = 1; i <= n; i++)
 	{
 		if (check(i))
 		{
