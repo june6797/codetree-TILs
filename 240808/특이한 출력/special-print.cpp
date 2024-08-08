@@ -20,7 +20,7 @@ int main() {
 		for (int j = 1; j <= n; j++)
 		{
 			cout << "(" << i << ", " << j << ") ";
-			if (i + j % 4 == 0)
+			if ((i + j) % 4 == 0)
 			{
 				cout << "\n";
 			}
