@@ -31,7 +31,7 @@ int main() {
 
 			for (int j = 0; j < n; j++)
 			{
-				cout << n - ;
+				cout << n - j;
 			}
 			cout << "\n";
 		}
