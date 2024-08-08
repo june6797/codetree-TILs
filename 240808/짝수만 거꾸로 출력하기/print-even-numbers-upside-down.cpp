@@ -27,6 +27,6 @@ int main() {
 	}
 	while (!s.empty())
 	{
-		cout << s.top() << "\n"; s.pop();
+		cout << s.top() << " "; s.pop();
 	}
 }
