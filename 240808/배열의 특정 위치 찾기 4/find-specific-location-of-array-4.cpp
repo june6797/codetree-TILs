@@ -24,6 +24,7 @@ int main() {
 		{
 			break;
 		}
+		cnt++;
 		if (a % 2 == 0)
 		{
 			ans++;
