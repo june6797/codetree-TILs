@@ -27,5 +27,5 @@ int main() {
 		sum += a;
 		arr[cnt] = a;
 	}
-	cout << sum << fixed << setprecision(1) << sum / cnt;
+	cout << sum << " " << fixed << setprecision(1) << sum / cnt;
 }
