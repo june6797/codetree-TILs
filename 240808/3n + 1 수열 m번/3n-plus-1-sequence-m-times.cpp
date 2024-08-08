@@ -16,6 +16,7 @@ int main() {
 	cin >> n;
 	for (int i = 1; i <= n; i++)
 	{
+		ans = 0;
 		int m;
 		cin >> m;
 		while (m != 1)
