@@ -18,7 +18,7 @@ int main() {
 	{
 		cin >> arr[i];
 	}
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 100; i++)
 	{
 		if (arr[i] == 0)
 		{
