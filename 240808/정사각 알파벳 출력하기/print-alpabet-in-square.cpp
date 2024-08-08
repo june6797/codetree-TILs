@@ -22,5 +22,6 @@ int main() {
 		{
 			cout << (char)(cnt++);
 		}
+		cout << "\n";
 	}
 }
