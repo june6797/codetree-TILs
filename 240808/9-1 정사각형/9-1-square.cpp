@@ -25,7 +25,7 @@ int main() {
 			{
 				cnt =  9;
 			}
-			cout << cnt << " ";
+			cout << cnt;
 		}
 		cout << "\n";
 	}
