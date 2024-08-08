@@ -18,7 +18,7 @@ int main() {
 	{
 		int a;
 		cin >> a;
-		if (a == 0)
+		if (a == 0 || cnt == 10)
 		{
 			break;
 		}
