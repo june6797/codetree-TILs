@@ -7,7 +7,7 @@ typedef pair<int, int> pii;
 
 using namespace std;
 
-int arr[1001];
+char arr[1001];
 double ans;
 int main() {
 	ios_base::sync_with_stdio(false);
@@ -18,5 +18,5 @@ int main() {
 	{
 		cin >> arr[i];
 	}
-	cout << (char)(arr[1]) << " " << (char)(arr[4]) << " " << (char)(arr[7]) << " ";
+	cout << arr[1] << " " << arr[4] << " " << arr[7] << " ";
 }
