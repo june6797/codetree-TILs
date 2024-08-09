@@ -18,7 +18,7 @@ int main() {
 	cin >> str;
 	int n;
 	cin >> n;
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < min((int)str.size(), n); i++)
 	{
 		cout << str[str.size() - 1 - i];
 	}
