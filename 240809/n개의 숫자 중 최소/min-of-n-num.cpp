@@ -15,14 +15,12 @@ int main() {
 	cin.tie(0);
 	cout.tie(0);
 
-	int ma = -INF;
-	int mi = INF;
+	ll mi = -10000000000000;
 	int n;
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		int num; cin >> num;
-        arr[i] = num;
 		mi = min(mi, num);
 	}
 	cout << mi;
