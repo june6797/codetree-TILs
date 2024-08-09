@@ -26,14 +26,7 @@ int main() {
 	{
 		for (int j = 0; j < n; j++)
 		{
-			if (arr[i][j])
-			{
-				cout << 1 << " ";
-			}
-			else
-			{
-				cout << 0 << " ";
-			}
+            cout << arr[i][j] << " ";
 		}
 		cout << "\n";
 	}
