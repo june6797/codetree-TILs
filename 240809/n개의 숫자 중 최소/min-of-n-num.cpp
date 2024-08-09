@@ -15,13 +15,14 @@ int main() {
 	cin.tie(0);
 	cout.tie(0);
 
-	ll mi = 1000000000000;
+	ll mi = 10000000000000;
 	int n;
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		int num; cin >> num;
-		mi = min(mi,(ll)num);
+        arr[i] = num;
+		mi = min(mi, (ll)num);
 	}
 	cout << mi;
 	for (int i = 0; i < n; i++)
