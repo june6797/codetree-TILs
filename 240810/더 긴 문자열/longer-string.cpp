@@ -22,10 +22,10 @@ int main() {
 	}
 	else if (str.length() > str2.length())
 	{
-		cout << str << str.length();
+		cout << str << " " << str.length();
 	}
 	else
 	{
-		cout << str2 << str2.length();
+		cout << str2 << " " << str2.length();
 	}
 }
