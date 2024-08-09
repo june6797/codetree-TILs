@@ -7,7 +7,7 @@ typedef pair<int, int> pii;
 
 using namespace std;
 
-char arr[1001][1001];
+int arr[1001][1001];
 vector<int> v;
 int main() {
 	ios_base::sync_with_stdio(false);
