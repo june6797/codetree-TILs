@@ -16,7 +16,7 @@ int main() {
 	int a, b;
 	cin >> a >> b;
 	int ans = 0;
-	while (a != 0)
+	while (a > 1)
 	{
 		arr[a % b]++;
 		a = a / b;
