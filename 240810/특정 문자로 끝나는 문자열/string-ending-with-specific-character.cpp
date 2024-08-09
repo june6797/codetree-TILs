@@ -21,11 +21,17 @@ int main() {
 	}
 	char a;
 	cin >> a;
+	bool flag = false;
 	for (int i = 0; i < 10; i++)
 	{
 		if (str[i][str[i].size() - 1] == a)
 		{
+			flag = true;
 			cout << str[i] << "\n";
 		}
+	}
+	if (!flag)
+	{
+		cout << "None";
 	}
 }
