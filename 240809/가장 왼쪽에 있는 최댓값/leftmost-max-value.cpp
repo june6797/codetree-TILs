@@ -29,7 +29,7 @@ int main() {
 		{
 			if (arr[i] == m)
 			{
-				cout << i << " ";
+				cout << i + 1 << " ";
 				n = i;
 				break;
 			}
