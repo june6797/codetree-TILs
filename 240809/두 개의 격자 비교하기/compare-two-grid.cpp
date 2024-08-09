@@ -38,11 +38,11 @@ int main() {
 		{
 			if (arr[i][j] == arr2[i][j])
 			{
-				cout << 1 << " ";
+				cout << 0 << " ";
 			}
 			else
 			{
-				cout << 0 << " ";
+				cout << 1 << " ";
 			}
 		}
 		cout << "\n";
