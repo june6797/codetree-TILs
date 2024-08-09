@@ -18,7 +18,7 @@ int main() {
 	cin >> str;
 	for (int i = 0; i < str.size(); i++)
 	{
-		if (i == 1 || i == str.size() -3)
+		if (i == 1 || i == str.size() -2)
 		{
 			cout << 'a';
 		}
