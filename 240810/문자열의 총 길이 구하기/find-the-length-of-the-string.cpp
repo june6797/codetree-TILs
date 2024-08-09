@@ -16,5 +16,5 @@ int main() {
 	cout.tie(0);
 	string str;
 	getline(cin, str);
-	cout << str.size();
+	cout << str.size() - 9;
 }
