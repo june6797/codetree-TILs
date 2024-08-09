@@ -20,7 +20,7 @@ int main() {
 	{
 		if (a[i] == b)
 		{
-			cout << i + 1;
+			cout << i;
 			return 0;
 		}
 	}
