@@ -22,6 +22,7 @@ int main() {
 	for (int i = 0; i < n; i++)
 	{
 		int num; cin >> num;
+        arr[i] = num;
 		mi = min(mi, num);
 	}
 	cout << mi;
