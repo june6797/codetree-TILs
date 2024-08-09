@@ -17,7 +17,7 @@ int main() {
 	for (int i = 0; i < 10; i++)
 	{
 		string str; cin >> str;
-		if (i & 0)
+		if (~i & 1)
 		{
 			cout << str << "\n";
 
