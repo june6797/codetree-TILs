@@ -21,7 +21,7 @@ int main() {
 	for (int i = 0; i < n; i++)
 	{
 		int num; cin >> num;
-		mi = min(mi, num);
+		mi = min(mi,(ll)num);
 	}
 	cout << mi;
 	for (int i = 0; i < n; i++)
