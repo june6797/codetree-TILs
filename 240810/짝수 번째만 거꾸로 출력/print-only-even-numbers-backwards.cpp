@@ -18,9 +18,9 @@ int main() {
 	cin >> str;
 	for (int i = 0; i < str.size(); i++)
 	{
-		if ((str.size() - i - 1) % 2 == 0)
+		if ((str.size() - i - 1) % 2 == 1)
 		{
-			cout << str[str.size() - i];
+			cout << str[str.size() - i - 1];
 		}
 	}
 }
