@@ -17,7 +17,7 @@ int main() {
 	cout.tie(0);
 	int n, m;
 	cin >> n >> m;
-	for (int i = 0; i < max(n, m); i++)
+	for (int i = 0; i < 2 * max(n, m); i++)
 	{
 		int x = 0;
 		int y = i;
@@ -25,7 +25,7 @@ int main() {
 		{
 			if (x >= 0 && x < n && y >= 0 && y < n)
 			{
-				arr[x][y] = ans++;
+				arr[x][y] = ++ans;
 			}
 			x++;
 			y--;
