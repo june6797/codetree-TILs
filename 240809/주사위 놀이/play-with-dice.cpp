@@ -20,7 +20,7 @@ int main() {
 		cin >> n;
 		arr[n]++;
 	}
-	for (int i = 1; i <= 9; i++)
+	for (int i = 1; i <= 6; i++)
 	{
 		cout << i << " - " << arr[i] << "\n";
 	}
