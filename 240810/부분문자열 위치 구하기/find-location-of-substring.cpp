@@ -19,7 +19,7 @@ int main() {
 	ans = -1;
 	string t;
 	cin >> t;
-	for (int i = 0; i < str.size() - t.size(); i++)
+	for (int i = 0; i < str.size() - t.size() +1; i++)
 	{
 		bool flag = false;
 		for (int j = 0; j < t.size(); j++)
