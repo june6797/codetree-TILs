@@ -18,7 +18,7 @@ int main() {
 	cin >> b;
 	for (int i = 0; i < 6; i++)
 	{
-		if (arr[i] == b)
+		if (a[i] == b)
 		{
 			cout << i + 1;
 			return 0;
