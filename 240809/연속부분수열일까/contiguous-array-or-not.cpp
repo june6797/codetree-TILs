@@ -25,7 +25,7 @@ int main() {
 		cin >> arr1[i];
 	}
 	bool f = false;
-	for (int i = 0; i < n - m; i++)
+	for (int i = 0; i <= n - m; i++)
 	{
 		bool flag = false;
 		if (arr[i] == arr1[0])
