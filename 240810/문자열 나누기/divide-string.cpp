@@ -25,10 +25,10 @@ int main() {
 	for (int i = 0; i < temp.size(); i++)
 	{
 
-		cout << temp[i];
 		if (i % 5 == 0 && i > 0)
 		{
 			cout << "\n";
 		}
+		cout << temp[i];
 	}
 }
