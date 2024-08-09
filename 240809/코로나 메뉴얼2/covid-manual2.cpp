@@ -24,11 +24,11 @@ int main() {
 		}
 		else if (a == 'Y' && n < 37)
 		{
-			arr[1]++;
+			arr[2]++;
 		}
 		else if (n >= 37)
 		{
-			arr[2]++;
+			arr[1]++;
 		}
 		else
 		{
