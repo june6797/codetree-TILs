@@ -23,7 +23,7 @@ int main() {
 		int y = i;
 		while (y >= 0)
 		{
-			if (x >= 0 && x < n && y >= 0 && y < n)
+			if (x >= 0 && x < n && y >= 0 && y < m)
 			{
 				arr[x][y] = ++ans;
 			}
