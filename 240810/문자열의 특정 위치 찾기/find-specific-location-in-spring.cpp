@@ -22,7 +22,7 @@ int main() {
 	{
 		if (str[i] == a)
 		{
-			cout << i + 1;
+			cout << i;
 			return 0;
 		}
 	}
