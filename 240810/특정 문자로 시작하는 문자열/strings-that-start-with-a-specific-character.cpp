@@ -8,7 +8,7 @@ typedef pair<int, int> pii;
 using namespace std;
 
 vector<int> v;
-string str[10];
+string str[21];
 int ans, cnt;
 int main() {
 	ios_base::sync_with_stdio(false);
