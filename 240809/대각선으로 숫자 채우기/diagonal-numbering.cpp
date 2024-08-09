@@ -17,26 +17,18 @@ int main() {
 	cout.tie(0);
 	int n, m;
 	cin >> n >> m;
-	for (int i = 0; i < m; i++)
+	for (int i = 0; i < max(n, m); i++)
 	{
-		int t = i;
-		int j = 0;
-		while (t >= 0)
+		int x = 0;
+		int y = i;
+		while (y >= 0)
 		{
-			arr[j][t] = ++ans;
-			t--;
-			j++;
-		}
-	}
-	for (int i = 1; i < n; i++)
-	{
-		int t = i;
-		int j = m - 1;
-		while (t < n)
-		{
-			arr[t][j] = ++ans;
-			t++;
-			j--;
+			if (x >= 0 && x < n && y >= 0 && y < n)
+			{
+				arr[x][y] = ans++;
+			}
+			x++;
+			y--;
 		}
 	}
 	for (int i = 0; i < n; i++)
