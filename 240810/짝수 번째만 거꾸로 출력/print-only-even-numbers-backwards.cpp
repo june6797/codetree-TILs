@@ -16,10 +16,9 @@ int main() {
 	cout.tie(0);
 	string str;
 	cin >> str;
-	string temp = "";
 	for (int i = 0; i < str.size(); i++)
 	{
-		if ((str.size() - i) % 2 == 1)
+		if ((str.size() - i - 1) % 2 == 0)
 		{
 			cout << str[str.size() - i];
 		}
