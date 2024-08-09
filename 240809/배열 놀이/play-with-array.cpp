@@ -40,6 +40,7 @@ int main() {
 				{
 					cout << j + 1 << "\n";
 					flag = true;
+                    break;
 				}
 			}
 			if (!flag)
