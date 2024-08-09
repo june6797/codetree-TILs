@@ -19,13 +19,11 @@ int main() {
 	{
 		string str; cin >> str;
 		ans += str.length();
-		for (int j = 0; j < str.size(); j++)
-		{
-			if (str[j] == 'a')
+			if (str[0] == 'a')
 			{
 				cnt++;
 			}
-		}
+		
 	}
 	cout << ans << " " << cnt;
 }
