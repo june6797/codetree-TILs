@@ -20,7 +20,7 @@ int main() {
 	cin >> a;
 	for (int i = 0; i < str.size(); i++)
 	{
-		if (str[i] == 'a')
+		if (str[i] == a)
 		{
 			cout << i + 1;
 			return 0;
