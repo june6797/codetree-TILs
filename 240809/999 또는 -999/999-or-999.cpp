@@ -17,8 +17,8 @@ int main() {
 
 	int n;
 	cin >> n;
-	int ans = 10000;
-	int ans2 = -10000;
+	int ans = 999;
+	int ans2 = -999;
 	for (int i = 0; i < n; i++)
 	{
 		int num; cin >> num;
