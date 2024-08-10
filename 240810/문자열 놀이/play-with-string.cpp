@@ -35,7 +35,7 @@ int main() {
 				}
 				else if (j == b - 1)
 				{
-					cout << str[a - 1];
+					cout << temp;
 					str[j] = temp;
 				}
 				else
