@@ -27,5 +27,12 @@ int main() {
 			break;
 		}
 	}
-	cout << ans;
+	if (ans == a.size())
+	{
+		cout << -1;
+	}
+	else
+	{
+		cout << ans;
+	}
 }
