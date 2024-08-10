@@ -16,7 +16,8 @@ int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 	cout.tie(0);
-	char a, int b;
+	char a;
+	int b;
 	cin >> a >> b;
 	cout << (int)a << " " << (char)b;
 }
