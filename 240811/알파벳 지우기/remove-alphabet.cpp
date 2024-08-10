@@ -21,16 +21,16 @@ int main() {
 	string q = "", w = "";
 	for (int i = 0; i < a.size(); i++)
 	{
-		if (str[i] >= '0' && str[i] <= 9)
+		if (a[i] >= '0' && a[i] <= 9)
 		{
-			q += str[i];
+			q += a[i];
 		}
 	}
 	for (int i = 0; i < b.size(); i++)
 	{
-		if (str[i] >= '0' && str[i] <= 9)
+		if (b[i] >= '0' && b[i] <= 9)
 		{
-			w += str[i];
+			w += b[i];
 		}
 	}
 	cout << stoi(q + w);
