@@ -25,6 +25,10 @@ int main() {
 		{
 			int a, b;
 			cin >> a >> b;
+			if (a > b)
+			{
+				swap(a, b);
+			}
 			char temp = str[a - 1];
 			for (int j = 0; j < str.size(); j++)
 			{
