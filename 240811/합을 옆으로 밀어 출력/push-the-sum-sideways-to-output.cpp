@@ -20,7 +20,7 @@ int main() {
 	for (int i = 0; i < n; i++)
 	{
 		int num;
-		cout << num;
+		cin >>  num;
 		ans += num;
 	}
 	string str = to_string(ans);
