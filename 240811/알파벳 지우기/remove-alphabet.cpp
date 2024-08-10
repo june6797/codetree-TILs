@@ -10,8 +10,7 @@ using namespace std;
 vector<int> v;
 int ans, cnt;
 int arr[26];
-string str, temp;
-stack<char> s;
+
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
@@ -21,17 +20,17 @@ int main() {
 	string q = "", w = "";
 	for (int i = 0; i < a.size(); i++)
 	{
-		if (a[i] >= '0' && a[i] <= 9)
+		if (a[i] >= '0' && a[i] <= '9')
 		{
 			q += a[i];
 		}
 	}
 	for (int i = 0; i < b.size(); i++)
 	{
-		if (b[i] >= '0' && b[i] <= 9)
+		if (b[i] >= '0' && b[i] <= '9')
 		{
 			w += b[i];
 		}
 	}
-	cout << stoi(q + w);
+	cout << stoi(q) + stoi(w);
 }
