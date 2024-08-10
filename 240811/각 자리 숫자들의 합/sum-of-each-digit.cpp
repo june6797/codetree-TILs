@@ -17,7 +17,7 @@ int main() {
 	cout.tie(0);
 	int a, b;
 	cin >> a;
-	string str = to_string(ca);
+	string str = to_string(a);
 	for (int i = 0; i < str.size(); i++)
 	{
 		ans += (str[i] - '0');
