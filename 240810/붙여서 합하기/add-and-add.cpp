@@ -18,5 +18,5 @@ int main() {
 	cout.tie(0);
 	string a, b;
 	cin >> a >> b;
-	stoi(a + b) + stoi(b + a);
+	cout << stoi(a + b) + stoi(b + a);
 }
