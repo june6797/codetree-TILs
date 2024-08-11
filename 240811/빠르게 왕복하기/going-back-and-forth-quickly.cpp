@@ -50,17 +50,14 @@ int main() {
 	for (int i = 1; i < v1.size(); i++)
 	{
 		ans += v1[i].first;
-		temp = (v1[i - 1].second + two - v1[i].first);
-		if (temp < 0)
-		{
-			temp = 0;
-		}
-		else
-		{
-			two = temp;
-		}
+		two += v1[i].second;
 	}
-	ans += temp;
-	ans += v1[v1.size() - 1].second;
-	cout << ans;
+	if (ans > two)
+	{
+		cout << ans + v1[v1.size() - 1].second;
+	}
+	else
+	{
+		cout << two + v1[1].first;
+	}
 }
