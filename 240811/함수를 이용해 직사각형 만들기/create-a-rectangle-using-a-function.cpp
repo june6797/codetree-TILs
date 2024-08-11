@@ -19,7 +19,7 @@ int main() {
 	{
 		for (int j = 0; j < m; j++)
 		{
-			cin >> 1;
+			cout << 1;
 		}
 		cout << "\n";
 	}
