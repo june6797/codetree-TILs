@@ -20,7 +20,7 @@ int main() {
 		for (int j = 0; j < n; j++)
 		{
 			cout << ++ans << " ";
-			if (ans == 10)
+			if (ans == 9)
 			{
 				ans = 0;
 			}
