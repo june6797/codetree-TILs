@@ -15,7 +15,7 @@ int main() {
 	cout.tie(0);
 	int n, m;
 	cin >> n >> m;
-	for (int i = 1; i < min(n, m); i++)
+	for (int i = 1; i <= min(n, m); i++)
 	{
 		if (n % i == 0 && m % i ==0)
 		{
