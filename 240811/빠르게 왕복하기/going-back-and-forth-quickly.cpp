@@ -50,13 +50,17 @@ int main() {
 	for (int i = 1; i < v1.size(); i++)
 	{
 		ans += v1[i].first;
-		temp = v1[i - 1].second - v1[i].first;
-		if (temp > 0)
+		temp = (v1[i - 1].second + two - v1[i].first);
+		if (temp < 0)
 		{
-			two += temp;
+			temp = 0;
+		}
+		else
+		{
+			two = temp;
 		}
 	}
-	ans += two;
+	ans += temp;
 	ans += v1[v1.size() - 1].second;
 	cout << ans;
 }
