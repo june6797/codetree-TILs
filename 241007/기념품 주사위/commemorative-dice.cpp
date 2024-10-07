@@ -36,7 +36,7 @@ int main() {
 	{
 		for (int j = 0; j < 6; j++)
 		{
-			if (a[i] >= b[i])
+			if (a[i] > b[j])
 			{
 				cnt++;
 			}
