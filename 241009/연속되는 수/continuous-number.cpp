@@ -31,16 +31,16 @@ int main() {
 		}
 		int last = -1;
 		int cnt = 0;
-		for (int i = 0; i < v.size(); i++)
+		for (int j = 0; j < v.size(); j++)
 		{
-			if (v[i] == last)
+			if (v[j] == last)
 			{
 				cnt++;
 			}
 			else
 			{
-				last = v[i];
-				cnt = 0;
+				last = v[j];
+				cnt = 1;
 			}
 			ans = max(ans, cnt);
 		}
